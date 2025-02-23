@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            border: 1px solid rgb(14, 12, 9);
+            background-color: orange;
+            color: white;
+        }
+        h1{
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .navbar{
+            display: flex;
+            margin-top: 10px;
+            border: 1px solid black;
+            background-color: green;
+            justify-content: space-evenly;
+            
+            
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            
+        }
+        .navbar a:hover{
+            background-color: aliceblue;
+            color: black;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+.card{
+    border: 2px solid black;
+    border-radius:10px;
+}
+
+.container{
+    text-align: center;
+    margin-top: 6%;
+}
+
+.img1{
+    height: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    
+}
+
+.contact{
+    text-align: center;
+    margin-top: 8%;
+    
+}
+
+.contact > a {
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>MERN STACK</h1>
+    </div>
+
+    <div class="navbar">
+      <a href="#mongo">MongoDB</a>
+      <a href="#express">Express.js</a>
+      <a href="#react">React.js</a>
+      <a href="#node">Node.js</a>
+      <a href="#contact">Contact us</a>
+    </div>
+
+    <div class="container" id="mongo" >
+        <img src="mongo.png" height="200px" width="25%" class="card">
+        <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eli gendi reiciendis eaque cum asperiores, aliquam ad cupiditate quis offic<br>
+         ia, dolorem esse culpa quas! Tempore, adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima vel veritatis consequuntur dicta<br>
+          reiciendis libero, ipsa impedit omnis eveniet ad quia excepturi dolorem dignissimos officiis.</p>
+    </div>
+    <div class="container" id="express" >
+        <img src="expresss.jpeg" height="200px" width="25%" class="card">
+        <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eli gendi reiciendis eaque cum asperiores, aliquam ad cupiditate quis offic<br>
+         ia, dolorem esse culpa quas! Tempore, adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima vel veritatis consequuntur dicta<br>
+          reiciendis libero, ipsa impedit omnis eveniet ad quia excepturi dolorem dignissimos officiis.</p>
+    </div>
+
+    <div class="container" id="react" >
+        <img src="React.png" height="200px" width="25%" class="card">
+        <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eli gendi reiciendis eaque cum asperiores, aliquam ad cupiditate quis offic<br>
+         ia, dolorem esse culpa quas! Tempore, adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima vel veritatis consequuntur dicta<br>
+          reiciendis libero, ipsa impedit omnis eveniet ad quia excepturi dolorem dignissimos officiis.</p>
+    </div>
+
+    <div class="container" id="node">
+        <img src="nodejs.jpeg" height="200px" width="25%" class="card">
+        <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eli gendi reiciendis eaque cum asperiores, aliquam ad cupiditate quis offic<br>
+         ia, dolorem esse culpa quas! Tempore, adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima vel veritatis consequuntur dicta<br>
+          reiciendis libero, ipsa impedit omnis eveniet ad quia excepturi dolorem dignissimos officiis.</p>
+    </div>
+
+    <div class="contact" id="contact">
+        <a href="mailto:@gmail.com" target="_blank"><img src="/contactimges/gmaiimg.png" class="img1"></a>
+        <a href="tell:1234567890" target="_blank"><img src="contactimges/contactimg.png" class="img1"></a>
+        <a href="https://wa.me/1234567890" target="_blank"><img src="contactimges/whatsappimg.jpg" class="img1"></a>
+    </div>
+</body>
+</html>

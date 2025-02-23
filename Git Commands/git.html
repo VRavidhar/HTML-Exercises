@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        p{
+            font-size: 20px;
+            font-family: sans-serif;
+            
+        }
+
+        table{
+            background-color: rgb(233, 236, 150);
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+        <h1>Git</h1>
+        <p >Git is a distributed version control system that allows multiple developers to collaborate on a project,
+         track changes to files, and manage project history. It keeps track of all the changes made to files,
+          enabling you to revert to previous versions, collaborate with others, and maintain a clean history
+          of changes. Git is widely used in software development for managing source code.</p>
+
+          <h3>The 3 Stages in Git:</h3>
+          <br>
+          <p>  Git has a three-stage process for managing changes to files:</p>
+          <p><span style="font-weight: bold;">1. Working Directory (Working Tree)</span> What it is: The working directory is the directory where your project files reside on your local machine. It’s
+             where you make changes to files, such as editing, adding, or deleting files. What happens here: When you edit or create files in your project, these files
+              are considered to be in the working directory. Git doesn’t track these changes until they are added to the staging area. Example: You edit a file called 
+              index.html in your project directory.
+            </p>
+          <p> <span style="font-weight: bold;">2.Staging Area (Index)</span> What it is: The staging area is a temporary area where you place changes you want to commit. It's like a holding area for change
+             You use git add to stage the changes in the files that you want to commit. This allows you to selectively commit changes. Example: You make edits to index.html
+              and style.css. After editing, you run git add index.html to stage the changes for the next commit.
+            </p>
+            <p>
+               <span style="font-weight: bold;">3. Git Repository (Local Repository)</span> What it is: The staging area is a temporary area where you place changes you want to commit. It's like a holding area for changes
+                 that will become part of the next commit. You decide which changes should be included in the commit by adding them to the staging area. What happens here:
+                  You use git add to stage the changes in the files that you want to commit. This allows you to selectively commit changes. Example: You make edits to index.html
+                   and style.css. After editing, you run git add index.html to stage the changes for the next commit.
+            </p>
+
+            <h1>GitHub:</h1>
+            <p>
+                GitHub is a cloud-based platform that provides hosting for Git repositories. It is built around Git, a distributed version control system, but it adds extra
+                functionality to improve collaboration and project management. GitHub is widely used for version control and collaboration, especially in open-source projects.
+                 It provides a user-friendly interface for managing repositories, tracking issues, and reviewing code.
+            </p>
+
+            <table border="2" style="margin: auto;">
+                <tr>
+                    <td style="background-color: rgb(139, 221, 227); font-weight: 900;">features</td>
+                    <td  style="background-color: rgb(139, 221, 227); font-weight: 900;">Description</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">Remote Repository Hosting</td>
+                    <td>Store and manage Git repositories online</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">Version Control</td>
+                    <td>Track code changes, history, and revisions.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">Pull Requests</td>
+                    <td>	Propose changes to the project, which can be reviewed and merged.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">Issues.</td>
+                    <td>Track tasks, bugs, and feature requests</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">Branching and Merging</td>
+                    <td>Create branches for different tasks and merge changes.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">Code Review</td>
+                    <td>Comment, discuss, and approve code changes.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">GitHub Actions (CI/CD)</td>
+                    <td>	Automate workflows such as testing, building, and deployment.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">Project Management</td>
+                    <td>Use project boards, milestones, and labels to organize tasks.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">Security Features</td>
+                    <td>Manage permissions and access control, automate security checks.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">Open source</td>
+                    <td>its a free platform and runs at anywhere</td>
+                </tr>
+                
+                
+            </table>
+<br>
+<h3>commands</h3>
+            <table border="2" style="margin: auto;">
+                <tr>
+                    <td style="background-color: rgb(139, 221, 227);">commands</td>
+                    <td style="background-color: rgb(139, 221, 227);;">functionality</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">git init</td>
+                    <td>Initialize a new Git repository</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">git clone</td>
+                    <td>clones the existing repository</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">git status</td>
+                    <td>View the status of changes in the working directory</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">git add</td>
+                    <td>	Stage changes for commit.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">git commit</td>
+                    <td>Commit staged changes to the repository.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">git push</td>
+                    <td>Push local commits to a remote repository.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">git branch</td>
+                    <td>List or create branches.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">git remote</td>
+                    <td>Manage remote repositories.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">git config</td>
+                    <td>get Git configuration options.</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 900;">git pull</td>
+                    <td>Fetch and merge changes from a remote repository.</td>
+                </tr>
+            </table>
+    </div>
+</body>
+</html>
